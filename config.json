@@ -12,12 +12,14 @@
              },	
     "map": ["config:rw", "ssl:rw", "addons:rw", "share:rw", "backup:rw", "media:rw"],
     "privileged": [
-      "NET_ADMIN"
+      "SYS_ADMIN"
     ],
+    "full_access": true,
     "devices": [
       "/dev/net/tun"
     ],
     "host_network": true,
+    "init": false
     "options": {
       "media_dir": "/media;/share",
 	  "options": "-d"

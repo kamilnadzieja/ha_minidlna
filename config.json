@@ -19,7 +19,7 @@
       "/dev/net/tun"
     ],
     "host_network": true,
-    "init": false
+    "init": false,
     "options": {
       "media_dir": "/media;/share",
 	  "options": "-d"
